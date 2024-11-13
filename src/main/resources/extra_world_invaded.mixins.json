@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.xiaohunao.extra_world_invaded.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "extra_world_invaded.refmap.json",
+  "mixins": [
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
