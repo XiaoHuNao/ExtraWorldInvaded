@@ -52,9 +52,10 @@ public class ModMoments {
                         )
                         .addEntity(
                                 new EntityInfoContext.Builder(EntityType.PIGLIN,5,6)
-                                        .addAttachable(new CommonAttachable.Builder()
-                                                .addEquipment(VanillaEquippableSlot.of(EquipmentSlot.HEAD), Items.DIAMOND_HELMET.getDefaultInstance())
-                                                .build()
+                                        .addAttachable(
+                                                new CommonAttachable.Builder()
+                                                    .addEquipment(VanillaEquippableSlot.of(EquipmentSlot.HEAD), Items.DIAMOND_HELMET.getDefaultInstance())
+                                                    .build()
                                         ).build(),
                                 new EntityInfoContext.Builder(EntityType.HOGLIN,4,5).build(),
                                 new EntityInfoContext.Builder(EntityType.MAGMA_CUBE,3,4).build(),
