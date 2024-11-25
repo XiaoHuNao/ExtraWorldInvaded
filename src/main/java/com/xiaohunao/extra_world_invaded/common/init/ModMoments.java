@@ -1,13 +1,13 @@
 package com.xiaohunao.extra_world_invaded.common.init;
 
 import com.xiaohunao.heaven_destiny_moment.HeavenDestinyMoment;
-import com.xiaohunao.heaven_destiny_moment.common.init.MomentRegistries;
+import com.xiaohunao.heaven_destiny_moment.common.init.HDMRegistries;
 import com.xiaohunao.heaven_destiny_moment.common.moment.Moment;
 import net.minecraft.data.worldgen.BootstrapContext;
 import net.minecraft.resources.ResourceKey;
 
 public class ModMoments {
-    public static final ResourceKey<Moment> PIGLIN_LEGION = HeavenDestinyMoment.asResourceKey(MomentRegistries.Keys.MOMENT, "piglin_legion");
+    public static final ResourceKey<Moment> PIGLIN_LEGION = HeavenDestinyMoment.asResourceKey(HDMRegistries.Keys.MOMENT, "piglin_legion");
 
 
     public static void bootstrap(BootstrapContext<Moment> context) {
